@@ -1,0 +1,42 @@
+.main-content-instruction {
+    font-size: clamp(22px, 2vw, 42px);
+    text-align: center;
+}
+
+.main-example {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 80%;
+    max-width: 600px;
+
+    >.example-label {
+        font-weight: 800;
+        font-size: 14px;
+    }
+
+}
+
+.instruction-wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+
+}
+
+.image-instruction {
+    padding: 32px;
+    font-weight: 800;
+}
+
+.link-p {
+    font-weight: 800;
+    text-align: center;
+
+    >a {
+        color: red;
+    }
+}
